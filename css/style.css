@@ -1,0 +1,88 @@
+/* heading style */
+h1{
+    color: #1092bd;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 5px 5px #0a027f;
+}
+
+/* background image */
+body {
+    /* Sets the image path */
+    background-image: url("images/ocean.jpg");
+
+    background-size: cover;
+}
+
+/* heading style */
+h2{
+    color: #beffff;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+}
+
+/* highlighted text */
+#highlight{
+    background-color: #1aaee0;
+}
+
+/* button style */
+.btn1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* button style */
+.btnstyle{
+    background-color: #0798c9;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    font-family: "Times New Roman", serif;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #05166a;
+    box-shadow: 5px 5px;
+}
+
+/* button style on hover */
+.btnstyle:hover {
+    background-color: #6ee4ff;
+}
+
+/* fact display style */
+#fact{
+    color: #beffff;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+}
+
+/* fish image style */
+#fishimage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 300px;
+}
+
+/* fish image style on hover */
+#fishimage:hover{
+    transform: scale(2.2);
+}
+
+/* video style */
+video{
+    width: 100%;
+    display: block;
+}
+
+/* audio style */
+audio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

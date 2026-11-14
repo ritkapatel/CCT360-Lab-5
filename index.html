@@ -3,32 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aquarium</title>
+    <title>Ocean</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <!-- Ocean noise audio -->
+    <audio controls autoplay loop>
+        <!-- audio file -->
+        <source src="audio/oceannoise.mp3" type="audio/mp3">
+        This browser does not support audio.
+    </audio>
+
     <!-- Title -->
-    <h1>Welcome to the Aquarium!</h1>
+    <h1>Welcome to the Ocean!</h1>
+
+    <!-- Fish video autoplay -->
+    <video controls autoplay loop muted>
+        <!-- video file -->
+        <source src="video/fish.mp4" type="video/mp4">
+        This browser does not support video.
+    </video>
 
     <!-- Description -->
-    <h2>Let's explore the different species of fish!</h2>
+    <h2 id="highlight">Let's explore the different species of fish!</h2>
 
-    <!-- Clown Fish -->
-    <h2>Clown Fish</h2>
+    <div class="btn1">
+        <!-- Clown Fish -->
+        <h2>Clown Fish</h2>
+        <!-- show facts -->
+        <button class="btnstyle" onclick="fishfacts('clownfish')">Click</button>
+    </div>
 
-    <!-- play noise -->
-    <button>Click</button>
+    <div class="btn1">
+        <!--Shark -->
+        <h2>Shark</h2>
+        <!--show facts -->
+        <button class="btnstyle" onclick="fishfacts('shark')">Click</button>
+    </div>
 
-    <!--Shark -->
-    <h2>Shark</h2>
+    <div class="btn1">
+        <!-- starfish -->
+        <h2>Starfish</h2>
+        <!-- show facts -->
+        <button class="btnstyle" onclick="fishfacts('starfish')">Click</button>
+    </div>
 
-    <!--play noise -->
-    <button>Click</button>
+    <!-- facts display -->
+    <div id="fact"></div>
 
-    <!-- shark -->
-    <h2>Starfish</h2>
+    <!-- fish image -->
+    <img id="fishimage">
 
-    <!-- play noise -->
-    <button>Click</button>
+    <!-- connection to javascript -->
+    <script src="js/script.js"></script>
     
 </body>
 </html>
